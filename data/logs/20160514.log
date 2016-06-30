@@ -1,0 +1,121 @@
+2016-05-14 21:32:12 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[toUser]]></ToUserName><FromUserName><![CDATA[fromUser]]></FromUserName><CreateTime>1463232731</CreateTime><MsgType><![CDATA[text]]></MsgType><Content><![CDATA[520]]></Content><MsgId>1234567890123456</MsgId></xml>
+
+2016-05-14 21:32:12 params :
+------------
+Array:
+message : Array ;
+module : cover ;
+rule : 13 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-05-14 21:32:12 response :
+------------
+Array:
+FromUserName : toUser ;
+ToUserName : fromUser ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2016-05-14 22:17:26 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_0f2739b7f348]]></ToUserName>
+<FromUserName><![CDATA[oRDNLvwhHIVHwxxx0J3gSxaKiz7g]]></FromUserName>
+<CreateTime>1463235446</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2016-05-14 22:17:26 params :
+------------
+Array:
+message : Array ;
+module : default ;
+rule : -1 ;
+
+2016-05-14 22:17:26 response :
+------------
+Array:
+params : Array ;
+
+2016-05-14 22:18:19 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_0f2739b7f348]]></ToUserName>
+<FromUserName><![CDATA[oRDNLvwhHIVHwxxx0J3gSxaKiz7g]]></FromUserName>
+<CreateTime>1463235499</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[520]]></Content>
+<MsgId>6284548614970648424</MsgId>
+</xml>
+
+2016-05-14 22:18:19 params :
+------------
+Array:
+message : Array ;
+module : cover ;
+rule : 13 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-05-14 22:18:19 response :
+------------
+Array:
+FromUserName : gh_0f2739b7f348 ;
+ToUserName : oRDNLvwhHIVHwxxx0J3gSxaKiz7g ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2016-05-14 22:18:23 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_0f2739b7f348]]></ToUserName>
+<FromUserName><![CDATA[oRDNLvwhHIVHwxxx0J3gSxaKiz7g]]></FromUserName>
+<CreateTime>1463235503</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[4646]]></Content>
+<MsgId>6284548632150517611</MsgId>
+</xml>
+
+2016-05-14 22:18:23 params :
+------------
+Array:
+message : Array ;
+module : default ;
+rule : -1 ;
+
+2016-05-14 22:18:23 response :
+------------
+Array:
+params : Array ;
+
+2016-05-14 22:30:30 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[toUser]]></ToUserName><FromUserName><![CDATA[fromUser]]></FromUserName><CreateTime>1463236229</CreateTime><MsgType><![CDATA[text]]></MsgType><Content><![CDATA[520]]></Content><MsgId>1234567890123456</MsgId></xml>
+
+2016-05-14 22:30:30 params :
+------------
+Array:
+message : Array ;
+module : cover ;
+rule : 13 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-05-14 22:30:30 response :
+------------
+Array:
+FromUserName : toUser ;
+ToUserName : fromUser ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+

@@ -1,0 +1,67 @@
+.bg{
+    width: 100%;
+}
+div.hd{
+    padding:0;
+}
+.baoxiang1{
+    cursor: pointer;
+    position: absolute;
+    top:40%;
+    left:50%;
+    width: 50%;
+    margin-left: -25%;
+}
+.xiaoren{
+    position: absolute;
+    bottom:20%;
+    left:5%;
+    width: 20%;
+}
+
+.hd>p{
+    position: absolute;
+    font-size: 30px;
+    top:10%;
+    left:7%;
+    font-weight: bold;
+}
+.hd>p>span{
+    font-size: 33px;
+    color: red;
+}
+img.fenxiang{
+    position: fixed;
+    z-index: 999;
+    width: 90%;
+    top:5%;
+    left: 50%;
+    margin-left: -45%;
+    display: none;
+}
+@media screen and (max-width: 320px){
+    .hd>p{
+        position: absolute;
+        font-size: 24px;
+        top:10%;
+        left:6%;
+        font-weight: bold;
+    }
+    .hd>p>span{
+        font-size: 28px;
+        color: red;
+    }
+}
+@media screen and (min-width: 375px) and (max-width: 413px){
+    .hd>p{
+        position: absolute;
+        font-size: 27px;
+        top:10%;
+        left:6%;
+        font-weight: bold;
+    }
+    .hd>p>span{
+        font-size: 32px;
+        color: red;
+    }
+}

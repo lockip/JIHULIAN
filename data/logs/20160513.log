@@ -1,0 +1,412 @@
+2016-05-13 09:07:39 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[toUser]]></ToUserName><FromUserName><![CDATA[fromUser]]></FromUserName><CreateTime>1463101851</CreateTime><MsgType><![CDATA[text]]></MsgType><Content><![CDATA[520]]></Content><MsgId>1234567890123456</MsgId></xml>
+
+2016-05-13 09:07:39 params :
+------------
+Array:
+message : Array ;
+module : cover ;
+rule : 11 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-05-13 09:07:39 response :
+------------
+Array:
+FromUserName : toUser ;
+ToUserName : fromUser ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2016-05-13 09:10:31 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[toUser]]></ToUserName><FromUserName><![CDATA[fromUser]]></FromUserName><CreateTime>1463102024</CreateTime><MsgType><![CDATA[text]]></MsgType><Content><![CDATA[520]]></Content><MsgId>1234567890123456</MsgId></xml>
+
+2016-05-13 09:10:31 params :
+------------
+Array:
+message : Array ;
+module : cover ;
+rule : 11 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-05-13 09:10:31 response :
+------------
+Array:
+FromUserName : toUser ;
+ToUserName : fromUser ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2016-05-13 09:34:51 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[toUser]]></ToUserName><FromUserName><![CDATA[fromUser]]></FromUserName><CreateTime>1463103483</CreateTime><MsgType><![CDATA[text]]></MsgType><Content><![CDATA[520]]></Content><MsgId>1234567890123456</MsgId></xml>
+
+2016-05-13 09:34:51 params :
+------------
+Array:
+message : Array ;
+module : cover ;
+rule : 11 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-05-13 09:34:51 response :
+------------
+Array:
+FromUserName : toUser ;
+ToUserName : fromUser ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2016-05-13 09:41:18 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[toUser]]></ToUserName><FromUserName><![CDATA[fromUser]]></FromUserName><CreateTime>1463103871</CreateTime><MsgType><![CDATA[text]]></MsgType><Content><![CDATA[520]]></Content><MsgId>1234567890123456</MsgId></xml>
+
+2016-05-13 09:41:18 params :
+------------
+Array:
+message : Array ;
+module : cover ;
+rule : 11 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-05-13 09:41:18 response :
+------------
+Array:
+FromUserName : toUser ;
+ToUserName : fromUser ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2016-05-13 09:43:02 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[toUser]]></ToUserName><FromUserName><![CDATA[fromUser]]></FromUserName><CreateTime>1463103975</CreateTime><MsgType><![CDATA[text]]></MsgType><Content><![CDATA[520]]></Content><MsgId>1234567890123456</MsgId></xml>
+
+2016-05-13 09:43:02 params :
+------------
+Array:
+message : Array ;
+module : cover ;
+rule : 11 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-05-13 09:43:02 response :
+------------
+Array:
+FromUserName : toUser ;
+ToUserName : fromUser ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2016-05-13 09:50:35 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[toUser]]></ToUserName><FromUserName><![CDATA[fromUser]]></FromUserName><CreateTime>1463104428</CreateTime><MsgType><![CDATA[text]]></MsgType><Content><![CDATA[520]]></Content><MsgId>1234567890123456</MsgId></xml>
+
+2016-05-13 09:50:35 params :
+------------
+Array:
+message : Array ;
+module : cover ;
+rule : 11 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-05-13 09:50:35 response :
+------------
+Array:
+FromUserName : toUser ;
+ToUserName : fromUser ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2016-05-13 09:51:27 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[toUser]]></ToUserName><FromUserName><![CDATA[fromUser]]></FromUserName><CreateTime>1463104480</CreateTime><MsgType><![CDATA[text]]></MsgType><Content><![CDATA[520]]></Content><MsgId>1234567890123456</MsgId></xml>
+
+2016-05-13 09:51:27 params :
+------------
+Array:
+message : Array ;
+module : cover ;
+rule : 11 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-05-13 09:51:27 response :
+------------
+Array:
+FromUserName : toUser ;
+ToUserName : fromUser ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2016-05-13 10:00:24 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[toUser]]></ToUserName><FromUserName><![CDATA[fromUser]]></FromUserName><CreateTime>1463105017</CreateTime><MsgType><![CDATA[text]]></MsgType><Content><![CDATA[520]]></Content><MsgId>1234567890123456</MsgId></xml>
+
+2016-05-13 10:00:24 params :
+------------
+Array:
+message : Array ;
+module : userapi ;
+rule : 10 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-05-13 10:00:24 response :
+------------
+Array:
+FromUserName : toUser ;
+ToUserName : fromUser ;
+MsgType : text ;
+Content : 请输入合适的格式, 城市+天气, 例如: 北京天气 ;
+
+2016-05-13 10:00:29 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[toUser]]></ToUserName><FromUserName><![CDATA[fromUser]]></FromUserName><CreateTime>1463105021</CreateTime><MsgType><![CDATA[text]]></MsgType><Content><![CDATA[520]]></Content><MsgId>1234567890123456</MsgId></xml>
+
+2016-05-13 10:00:29 params :
+------------
+Array:
+message : Array ;
+module : userapi ;
+rule : 10 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-05-13 10:00:29 response :
+------------
+Array:
+FromUserName : toUser ;
+ToUserName : fromUser ;
+MsgType : text ;
+Content : 请输入合适的格式, 城市+天气, 例如: 北京天气 ;
+
+2016-05-13 10:00:47 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[toUser]]></ToUserName><FromUserName><![CDATA[fromUser]]></FromUserName><CreateTime>1463105040</CreateTime><MsgType><![CDATA[text]]></MsgType><Content><![CDATA[520]]></Content><MsgId>1234567890123456</MsgId></xml>
+
+2016-05-13 10:00:47 params :
+------------
+Array:
+message : Array ;
+module : cover ;
+rule : 12 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-05-13 10:00:47 response :
+------------
+Array:
+FromUserName : toUser ;
+ToUserName : fromUser ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2016-05-13 10:01:42 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[toUser]]></ToUserName><FromUserName><![CDATA[fromUser]]></FromUserName><CreateTime>1463105095</CreateTime><MsgType><![CDATA[text]]></MsgType><Content><![CDATA[520]]></Content><MsgId>1234567890123456</MsgId></xml>
+
+2016-05-13 10:01:42 params :
+------------
+Array:
+message : Array ;
+module : cover ;
+rule : 12 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-05-13 10:01:42 response :
+------------
+Array:
+FromUserName : toUser ;
+ToUserName : fromUser ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2016-05-13 10:03:01 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_0f2739b7f348]]></ToUserName>
+<FromUserName><![CDATA[oRDNLv-s7IzFY5n6vzCJzpuYGHUQ]]></FromUserName>
+<CreateTime>1463104981</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[520]]></Content>
+<MsgId>6283988044428991024</MsgId>
+</xml>
+
+2016-05-13 10:03:01 params :
+------------
+Array:
+message : Array ;
+module : cover ;
+rule : 12 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-05-13 10:03:01 response :
+------------
+Array:
+FromUserName : gh_0f2739b7f348 ;
+ToUserName : oRDNLv-s7IzFY5n6vzCJzpuYGHUQ ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2016-05-13 11:52:33 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_0f2739b7f348]]></ToUserName>
+<FromUserName><![CDATA[oRDNLv-s7IzFY5n6vzCJzpuYGHUQ]]></FromUserName>
+<CreateTime>1463111553</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[520]]></Content>
+<MsgId>6284016270954069159</MsgId>
+</xml>
+
+2016-05-13 11:52:33 params :
+------------
+Array:
+message : Array ;
+module : cover ;
+rule : 12 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-05-13 11:52:33 response :
+------------
+Array:
+FromUserName : gh_0f2739b7f348 ;
+ToUserName : oRDNLv-s7IzFY5n6vzCJzpuYGHUQ ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2016-05-13 13:34:01 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[toUser]]></ToUserName><FromUserName><![CDATA[fromUser]]></FromUserName><CreateTime>1463117834</CreateTime><MsgType><![CDATA[text]]></MsgType><Content><![CDATA[520]]></Content><MsgId>1234567890123456</MsgId></xml>
+
+2016-05-13 13:34:01 params :
+------------
+Array:
+message : Array ;
+module : cover ;
+rule : 12 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-05-13 13:34:01 response :
+------------
+Array:
+FromUserName : toUser ;
+ToUserName : fromUser ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2016-05-13 17:55:44 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_0f2739b7f348]]></ToUserName>
+<FromUserName><![CDATA[oRDNLv-s7IzFY5n6vzCJzpuYGHUQ]]></FromUserName>
+<CreateTime>1463133344</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[520]]></Content>
+<MsgId>6284109862586445731</MsgId>
+</xml>
+
+2016-05-13 17:55:44 params :
+------------
+Array:
+message : Array ;
+module : userapi ;
+rule : 10 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-05-13 17:55:44 response :
+------------
+Array:
+FromUserName : gh_0f2739b7f348 ;
+ToUserName : oRDNLv-s7IzFY5n6vzCJzpuYGHUQ ;
+MsgType : text ;
+Content : 请输入合适的格式, 城市+天气, 例如: 北京天气 ;
+
+2016-05-13 17:57:29 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_0f2739b7f348]]></ToUserName>
+<FromUserName><![CDATA[oRDNLv-s7IzFY5n6vzCJzpuYGHUQ]]></FromUserName>
+<CreateTime>1463133449</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[520]]></Content>
+<MsgId>6284110313558011879</MsgId>
+</xml>
+
+2016-05-13 17:57:29 params :
+------------
+Array:
+message : Array ;
+module : cover ;
+rule : 13 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-05-13 17:57:29 response :
+------------
+Array:
+FromUserName : gh_0f2739b7f348 ;
+ToUserName : oRDNLv-s7IzFY5n6vzCJzpuYGHUQ ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2016-05-13 17:57:41 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[toUser]]></ToUserName><FromUserName><![CDATA[fromUser]]></FromUserName><CreateTime>1463133654</CreateTime><MsgType><![CDATA[text]]></MsgType><Content><![CDATA[520]]></Content><MsgId>1234567890123456</MsgId></xml>
+
+2016-05-13 17:57:41 params :
+------------
+Array:
+message : Array ;
+module : cover ;
+rule : 13 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-05-13 17:57:41 response :
+------------
+Array:
+FromUserName : toUser ;
+ToUserName : fromUser ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+

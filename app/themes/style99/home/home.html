@@ -1,0 +1,308 @@
+{template 'header'}
+
+ <style>
+ html, body {
+	color:#222;
+	font-family:Microsoft YaHei,Helvitica,Verdana,Tohoma,Arial,san-serif;
+	margin:0;
+	padding: 0;
+	text-decoration: none;
+}
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td {
+	margin:0;
+	padding:0;
+}
+img {
+	border:0;
+}
+ol, ul {
+	list-style: none outside none;
+	margin:0;
+	padding: 0;
+}
+a {
+	color:#000000;
+	text-decoration: none;
+}
+.clr {
+	display:block;
+	clear:both;
+	height:0;
+	overflow:hidden;
+}
+#wx-header{
+	width: 100%;
+    background-image: url('{$_W['siteroot']}app/resource/images/wx-header.png');
+    
+    background-repeat: no-repeat;
+	background-size:100% 100%;
+}
+@media screen and (max-width:324px){
+	#wx-header{
+		height:100px;
+	}
+}
+@media screen and (min-width:325px) and (max-width:375px){
+	#wx-header{
+		height:120px;
+	}
+}
+@media screen and (min-width:376px){
+	#wx-header{
+		height:140px;
+	}
+}
+.copyright{padding:8px;text-align:center;font-size:14px;color:#666;}
+.copyright a{color:#666;}
+
+#cate55 { background-color:#fff; font-size:14px; }
+#cate55  .mainmenu {overflow:hidden; margin:auto;padding: 10%;padding-top: 4%;}
+#cate55  .mainmenu li {   margin-top:2%; margin-left:2%; margin-bottom:5%; width:96%; overflow:hidden; position:relative; min-height:100px;}
+
+#cate55  .mainmenu li a { display:block;  color:#FFF; overflow: hidden }
+
+#cate55  .mainmenu li a img { width:100%; height: auto; float:left;}
+
+#cate55  .mainmenu li a p{ width:32%; color:#FFF; padding:15px 0; display: block; position: relative;}
+#cate55  .mainmenu li a p b{ display:block; padding:0px 10px; font-size:16px;  font-weight:normal;  line-height:26px; text-align:left; text-overflow:ellipsis; white-space: nowrap; overflow:hidden}
+#cate55  .mainmenu li a p span { display: block;
+padding: 0px 10px;
+text-align: right;
+line-height: 16px;
+font-size: 12px;
+text-align: left;
+text-overflow:ellipsis; white-space: nowrap; overflow:hidden}
+#cate55  .mainmenu li i{ background: url(../../images/PIX.png) no-repeat;
+background-size: 100%;
+width: 24px;
+height: 24px;
+display: block;
+margin: 10px 10px 0 10px;}
+
+#cate55 .mainmenu li a p:after {
+content: " ";
+display: block;
+width: 0px;
+height: 0px;
+border: 6px;
+border-style: solid;
+position: absolute;
+top: 50%;
+margin-top: -3px;
+right:-12px;  }
+
+	#clickzan{
+		width:60px;
+		height:60px;
+		position:fixed;
+		right:3%;
+		top:20%;
+		z-index:999;
+		/*display:none;*/
+	}
+	#plusone{
+		position:absolute;
+		top:0;
+		left:0;
+		display:none;
+	}
+#cate55  .mainmenu li a p{ float:left}
+#cate55  .mainmenu li a img{ float:right;}
+/*
+#cate55  .mainmenu li:nth-child(4n+1) { background-color:#ff9999;}
+#cate55  .mainmenu li:nth-child(4n+2) { background-color:#f2c15b;}
+#cate55  .mainmenu li:nth-child(4n+3) { background-color:#a1bbe0;}
+#cate55  .mainmenu li:nth-child(4n+4) { background-color:#e0c6a1;}*/
+
+#cate55  .mainmenu li:nth-child(2n+1) i{ background: url(../../images/PIX.png) no-repeat;
+background-size: 100%;
+width: 24px;
+height: 24px;
+display: block;
+margin: 10px 10px 0 10px;}
+#cate55  .mainmenu li:nth-child(2n+2) i{background: url(../../images/PIX2.png) no-repeat;
+background-size: 100%;
+width: 24px;
+height: 24px;
+display: block;
+margin: 10px 10px 0 10px;}
+
+#cate55 .mainmenu li a p:after {
+content: " ";
+display: block;
+width: 0px;
+height: 0px;
+border: 6px;
+border-style: solid;
+position: absolute;
+top: 50%;
+margin-top: -3px;
+}
+#cate55  .mainmenu li:nth-child(2n+1) a p:after{ right:-12px;  }
+#cate55  .mainmenu li:nth-child(2n+2) a p:after{ left:-12px;}
+
+
+#cate55  .mainmenu li:nth-child(2n+1) a p{ float:left}
+#cate55  .mainmenu li:nth-child(2n+1) a img{ float:right;}
+#cate55  .mainmenu li:nth-child(2n+2) a p{ float:right}
+#cate55  .mainmenu li:nth-child(2n+2) a img{ float:left;}
+#cate55  .mainmenu li:nth-child(2n+2) a p b,#cate55  .mainmenu li:nth-child(2n+2) a p span{ text-align:left;}
+
+
+
+#cate55  .mainmenu li:nth-child(4n+1) a p:after{ border-color:rgba(0,0,0,0) rgba(0,0,0,0)  rgba(0,0,0,0)  #ff9999}
+#cate55  .mainmenu li:nth-child(4n+2) a p:after{ border-color:rgba(255, 255, 255, 0) #f2c15b rgba(0,0,0,0) rgba(0,0,0,0);}
+#cate55  .mainmenu li:nth-child(4n+3) a p:after{ border-color:rgba(0,0,0,0) rgba(0,0,0,0)  rgba(0,0,0,0)  #a1bbe0;}
+#cate55  .mainmenu li:nth-child(4n+4) a p:after{ border-color:rgba(255, 255, 255, 0) #e0c6a1 rgba(0,0,0,0) rgba(0,0,0,0);}
+	.time{
+		clear:both;
+	}
+	.qianggoutxt{
+		font-size:24px;
+		padding:0;
+		margin:0;
+		color:red;
+	}
+	
+</style>
+</head>
+
+<div id="cate55">
+{template 'slide'}
+ <div id="insert1">
+  <div id="wx-header">
+</div>
+	<div id="clickzan">
+    	<img id="clickbg" src="{$_W['siteroot']}app/resource/images/btn-qd.gif" width="60">
+        <img id="plusone" src="{$_W['siteroot']}app/resource/images/btn-yd-down.png" width="35">
+    </div>
+ </div>
+
+<ul class="mainmenu">
+<li>
+<div><img src="{$_W['siteroot']}app/resource/images/sc_time.png" class="img-responsive" style="vertical-align:bottom;float:left;width:26px;">
+<h5 class="qianggoutxt" style="float:left">极抢购</h5></div>
+    <p class="time" style="color:red;margin-bottom:8px;"><span id="notic-time" style="color:black; font-size:14px;"></span>
+    {if $zhh_qg_property['property_con2']!=0 }<div class="progress" style="margin-bottom: 4px;">
+  <div class="progress-bar progress-bar-info progress-bar-striped active " role="progressbar" aria-valuenow="{$zhh_qg_partake}" aria-valuemin="0" aria-valuemax="50" style="width: {php echo $zhh_qg_property['property_con2']*2}%;">
+    {php echo $zhh_qg_property['property_con2']*2}%
+  </div>
+</div>{/if}
+    </p>
+    <img style="margin-bottom: 0.5em;" id="btn-img1" src="{$_W['siteroot']}app/resource/images/sc_activity.png" class="img-responsive">
+    <lbale>已有:{if empty($zhh_look)} 0 {else}{$zhh_look[0]['typecount']}{/if}人参与</lbale>
+</li>
+<li>
+    <p class="time" style="color:red;margin-bottom:8px;"><span id="notic-vtime" style="color:black; font-size:14px;"></span></p>
+    <img style="margin-bottom: 0.5em;" id="btn-img2" src="{$_W['siteroot']}app/resource/images/ss_half_cover.png" class="img-responsive">
+    <lbale>已有:{if empty($zhh_look)} 0 {else}{php echo $zhh_look[1]['typecount']+43 }{/if}人参与</lbale>
+</li>
+<li>
+    <p class="time" style="color:red;margin-bottom:8px;"><span id="notic-ntime" style="color:black; font-size:14px;"></span></p>
+    <img style="margin-bottom: 0.5em;" id="btn-img3" src="{$_W['siteroot']}app/resource/images/ss_year_cover.png" class="img-responsive">
+    <lbale>已有:{if empty($zhh_look)} 0 {else}{php echo $zhh_look[2]['typecount']+32}{/if}人参与</lbale>
+    <hr style="background-color:#737373;" />
+</li>
+{loop $navs $i $nav}
+<li><a href="{$nav['url']}"><img src="{$_W['attachurl']}{$nav['icon']}"></a><lbale>已有:{$zhh_look_list[$i]['look']}人关注</lbale></li>
+{/loop}
+</ul>
+<div style="text-align: center;width:100%;color: #aaa;font-weight: bold;">更多活动,敬请关注极互联APP！</div>
+</div>
+ <div id="insert2"></div>
+    <script>
+    	//var time1=new Date();
+//		var time1hour=time1.getDate();
+//		var time1min=time1.getHours();
+//		var time1sec=time1.getSeconds();
+//		console.log(time1sec);
+		$("#clickbg").click(function(){
+			event.stopPropagation(); 
+			addcredit();
+		});
+	var time='2016-06-26 23:59:59';
+	var ctime='2016-06-29 23:59:59';
+	$(function(){
+		notic_time(time,'#notic-time');
+		notic_time(ctime,'#notic-vtime');
+		notic_time(ctime,'#notic-ntime');
+		$('#notic-time').text('距离活动结束 目前还差:{php echo $zhh_qg_partake } 人');
+		$('#btn-img1').click(function(){
+			event.stopPropagation(); 
+			window.location="http://jhl.aipu.com/app/index.php?i=3&c=entry&do=limit&m=zhh";
+			//window.location="#";
+		});
+		$('#btn-img2').click(function(){
+			event.stopPropagation(); 
+			window.location="http://jhl.aipu.com/app/index.php?i=3&c=entry&do=halflimit&m=zhh";
+		});
+		$('#btn-img3').click(function(){
+			event.stopPropagation(); 
+			window.location="http://jhl.aipu.com/app/index.php?i=3&c=entry&do=yearlimit&m=zhh";
+		});
+	});
+	function notic_time(_time,obj) {
+		$time=_time.replace("-", "/").replace("-", "/"); 
+		var time_start = new Date().getTime(); //设定当前时间
+		var time_end = new Date($time).getTime(); //设定目标时间
+		// 计算时间差 
+		if (time_end > time_start) {
+			var time_distance = time_end - time_start;
+			// 天
+			var int_day = Math.floor(time_distance / 86400000)
+			time_distance -= int_day * 86400000;
+			// 时
+			var int_hour = Math.floor(time_distance / 3600000)
+			time_distance -= int_hour * 3600000;
+			// 分
+			var int_minute = Math.floor(time_distance / 60000)
+			time_distance -= int_minute * 60000;
+			// 秒 
+			var int_second = Math.floor(time_distance / 1000)
+			// 时分秒为单数时、前面加零 
+			if (int_day < 10) {
+				int_day = "0" + int_day;
+			}
+			if (int_hour < 10) {
+				int_hour = "0" + int_hour;
+			}
+			if (int_minute < 10) {
+				int_minute = "0" + int_minute;
+			}
+			if (int_second < 10) {
+				int_second = "0" + int_second;
+			}
+			// 显示时间 
+			$(obj).html(
+					'<span style="color:red;">离截止时间：' + int_day + '天' + int_hour + '小时' + int_minute
+							+ '分' + int_second + '秒 </span>');
+			// 设置定时器
+			setTimeout("notic_time('"+_time+"','"+obj+"')", 1000);
+		} else {
+			$(obj).text('时间已截止');
+		}
+	}
+	  function addcredit(){
+			$.ajax({
+				type:"post",
+				url:"http://jhl.aipu.com/app/index.php?i=3&c=entry&do=Addcredit&m=zhh",
+				success:function(data){
+					var json=jQuery.parseJSON(data);
+					console.log(json);
+					if(json.code==1){
+			  				$('#clickbg').fadeOut(50);
+			  				$("#plusone").show().animate({ 
+											left: "-20px", 
+											top: "-15px"
+										  }, 1000 ).fadeOut(100);
+						
+					}else{
+						alert('已签到');
+					}
+				}
+			})
+		}
+    </script>
+
+
+{template 'footer'}

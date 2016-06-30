@@ -1,0 +1,29 @@
+2016-05-30 08:32:16 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_0f2739b7f348]]></ToUserName>
+<FromUserName><![CDATA[oRDNLv-s7IzFY5n6vzCJzpuYGHUQ]]></FromUserName>
+<CreateTime>1464568335</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[61]]></Content>
+<MsgId>6290273102002307261</MsgId>
+</xml>
+
+2016-05-30 08:32:16 params :
+------------
+Array:
+message : Array ;
+module : cover ;
+rule : 15 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-05-30 08:32:16 response :
+------------
+Array:
+FromUserName : gh_0f2739b7f348 ;
+ToUserName : oRDNLv-s7IzFY5n6vzCJzpuYGHUQ ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
